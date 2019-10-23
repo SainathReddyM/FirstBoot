@@ -1,1 +1,2 @@
 learning spring
+initializing first spring project
