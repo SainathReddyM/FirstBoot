@@ -11,6 +11,8 @@ public class MyApp {
 		Coach theCoach=context.getBean("basketballCoach",Coach.class);
 		
 		System.out.println(theCoach.getDailyworkout());
+		System.out.println(theCoach.getDailyFortune());
+		System.out.println(theCoach.getName());
 		
 		context.close();
 	}

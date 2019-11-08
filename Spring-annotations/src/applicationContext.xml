@@ -8,6 +8,7 @@
     http://www.springframework.org/schema/context/spring-context.xsd">
 	
 	<context:component-scan base-package="com.msr.annotations"></context:component-scan>
+	<context:property-placeholder location="classpath:prop.properties"/> 
 </beans>
 
 
