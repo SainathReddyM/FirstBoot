@@ -5,7 +5,7 @@
 </head>
 <body>
 <h1>This is helloworld Form</h1>
-<form action="processForm" method="get">
+<form action="processFormv2" method="get">
  <input type="text" name="personName"/>
  <input type="submit" />
 </form>
