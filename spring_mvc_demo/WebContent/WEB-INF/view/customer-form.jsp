@@ -6,7 +6,7 @@
 </head>
 <body>
 	
-	<form:form action="processForm" modelAttribute="customer">
+	<form:form action="processform" modelAttribute="customer">
 		First Name:<form:input path="firstName"/>
 		<br />
 		Last Name<form:input path="lastName"/>
