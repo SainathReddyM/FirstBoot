@@ -35,7 +35,6 @@ public class Instructor {
 	public Instructor() {}
 
 	public Instructor(String firstName, String lastNname, String email) {
-		super();
 		this.firstName = firstName;
 		this.lastNname = lastNname;
 		this.email = email;

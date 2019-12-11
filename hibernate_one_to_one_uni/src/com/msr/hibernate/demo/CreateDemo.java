@@ -22,15 +22,17 @@ public class CreateDemo {
 		
 		try {
 			//create the objects
-			
+			Instructor temp=new Instructor("sai","nath","sainath@msr.com");
+			InstructorDetail tempD=new InstructorDetail("youtube/msr","coding");
 			//associate the objects
-			
+			temp.setInstructorDetail(tempD);
 			//start a transaction
-			
+			session.beginTransaction();
 			//save the instructor
-			
+			System.out.println("saving: "+temp.toString());
+			session.save(temp);
 			//commit transaction
-			
+			session.getTransaction().commit();
 		}
 		finally {
 			session.close();
