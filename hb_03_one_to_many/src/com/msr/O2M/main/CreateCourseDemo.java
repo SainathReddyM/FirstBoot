@@ -30,9 +30,9 @@ public class CreateCourseDemo {
 			temp.addCourse(tc1);
 			temp.addCourse(tc2);
 			temp.addCourse(tc3);
-			//session.save(tc1);
-			//session.save(tc2);
-			//session.save(tc3);
+			session.save(tc1);
+			session.save(tc2);
+			session.save(tc3);
 			session.getTransaction().commit();
 		}finally {
 			factory.close();
